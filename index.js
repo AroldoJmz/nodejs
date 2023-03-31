@@ -1,7 +1,7 @@
 const http = require('http');
 const PORT = 3000;
 
-const value = "Prueba de API";
+const value = 'Prueba de API';
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
